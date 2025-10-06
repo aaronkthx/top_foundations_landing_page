@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: Roboto, sans-serif;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -41,19 +42,28 @@ ul {
   display: flex;
   padding: 48px;
   gap: 2em;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 
 .main-content {
   width:400px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .main-content-header {
   font-size: 48px;
-
+  font-weight: 900;
 }
 
 button {
+  border: none;
+  border-radius: 8px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 8px 24px;
 
 }
 
