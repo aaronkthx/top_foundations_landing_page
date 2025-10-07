@@ -71,3 +71,29 @@ button {
 height: 200px
 }
 
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+}
+
+.info-header {
+font-size: 24px;
+font-weight: 900;
+}
+
+.image-container img {
+ border: 2px solid #3882F6;
+ border-radius: 8px;
+}
+
+.image-container img {
+  height: 100px;
+}
+
+.sub-text-container {
+  display: flex;
+  height: 100px;
+}
