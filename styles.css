@@ -40,7 +40,7 @@ ul {
   color: #F9FAF8;
   background-color: #1F2937;
   display: flex;
-  padding: 48px;
+  padding: 36px;
   gap: 2em;
   justify-content: space-around;
   align-items: flex-end;
@@ -64,7 +64,7 @@ button {
   color: #F9FAF8;
   background-color: #3882F6;
   padding: 8px 24px;
-
+  
 }
 
 .container1 img {
@@ -95,5 +95,71 @@ font-weight: 900;
 
 .sub-text-container {
   display: flex;
-  height: 100px;
+}
+
+.sub-text {
+  width: 150px
+}
+
+.container3 {
+  background-color: #E5E7EB;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container4 {
+  padding: 48px;
+}
+
+.sub-container4 {
+  display: flex;
+  background-color: #3882F6;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 36px;
+  border-radius: 8px;
+}
+
+.action-container {
+  display: flex;
+  flex-direction: column;
+  color:#F9FAF8;
+}
+
+.sub-container4 button {
+  border-color: #E5E7EB;
+  border-style:solid;
+}
+
+.action {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.call-text {
+  color: #E5E7EB;
+}
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  font: 24px;
+  color: #f9FAF8;
+  
 }
