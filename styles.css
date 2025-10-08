@@ -107,7 +107,6 @@ font-weight: 900;
   padding: 48px;
   display: flex;
   flex-direction: column;
-
 }
 
 .quote {
@@ -123,6 +122,9 @@ font-weight: 900;
 
 .container4 {
   padding: 48px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
 }
 
 .sub-container4 {
@@ -132,6 +134,7 @@ font-weight: 900;
   align-items: flex-end;
   padding: 36px;
   border-radius: 8px;
+  gap: 8px;
 }
 
 .action-container {
@@ -162,6 +165,5 @@ font-weight: 900;
   padding: 16px;
   font: 24px;
   color: #f9FAF8;
-  margin-top: auto;
   
 }
