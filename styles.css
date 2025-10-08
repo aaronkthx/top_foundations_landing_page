@@ -43,7 +43,7 @@ ul {
   display: flex;
   padding: 36px;
   gap: 2em;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-end;
 }
 
@@ -113,7 +113,7 @@ font-weight: 900;
   font-size: 36px;
   color: #1F2937;
   font-weight: 300;
-}
+} 
 
 .author {
   display: flex;
@@ -123,8 +123,9 @@ font-weight: 900;
 .container4 {
   padding: 48px;
   display: flex;
-  justify-content: center;
   flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .sub-container4 {
