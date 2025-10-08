@@ -8,6 +8,7 @@ body {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  min-height: 100dvh;
 }
 
 .header {
@@ -161,5 +162,6 @@ font-weight: 900;
   padding: 16px;
   font: 24px;
   color: #f9FAF8;
+  margin-top: auto;
   
 }
