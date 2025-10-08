@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid black
 }
 
 body {
@@ -106,13 +107,19 @@ font-weight: 900;
   background-color: #E5E7EB;
   padding: 48px;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container3 {
+max-width: 700px;
 }
 
 .quote {
   font-size: 36px;
   color: #1F2937;
   font-weight: 300;
+  display: flex;
 } 
 
 .author {
